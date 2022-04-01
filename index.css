@@ -1,0 +1,46 @@
+.timeZoneSec {
+  padding: 80px 0;
+}
+
+.tabContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tabContent .box {
+  margin: 40px 20px 0;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 25px;
+  width: calc(33% - 40px);
+}
+
+.tabContent .box .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0e134f;
+  max-width: 200px;
+}
+
+.tabContent .box .time i {
+  margin-right: 10px;
+}
+
+.tabContent .box .time span {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=index.css.map */
